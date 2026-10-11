@@ -1,5 +1,9 @@
 #include <input/processors.dtsi>
 
+&zip_temp_layer {
+    require-prior-idle-ms = <300>;
+};
+
 &pointing_listener {
     status = "okay";
     device = <&pointing_device>;
