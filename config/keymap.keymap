@@ -86,6 +86,11 @@
             display-name = "scroll";
             status = "reserved";
         };
+
+        symbols {
+            display-name = "symbols";
+            status = "reserved";
+        };
     };
 };
 
