@@ -81,6 +81,11 @@
 #endif
             >;
         };
+
+        scroll {
+            display-name = "scroll";
+            status = "reserved";
+        };
     };
 };
 
